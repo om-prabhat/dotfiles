@@ -190,6 +190,9 @@ bindsym $mod+Ctrl+Shift+Up resize grow height 10 px or 10 ppt
 bindsym $mod+Ctrl+Shift+Down resize shrink height 10 px or 10 ppt
 bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
 
+# OCR
+bindsym $mod+Shift+p exec --no-startup-id /home/shadow/.config/OCR4Linux/OCR4Linux.sh
+
 # Hackthebox :):)
 bindsym $mod+Shift+h exec --no-startup-id /home/shadow/.config/rofi/htb/hackthebox.sh
 
