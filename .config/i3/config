@@ -181,8 +181,6 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 # Previous Track (Keycode 173)
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
-# compton - Compositing Manager for Shadows and Opacity
-exec_always --no-startup-id compton -b --config ~/.config/compton/compton.conf
 
 # Resize Bindings
 bindsym $mod+Ctrl+Shift+Right resize shrink width 10 px or 10 ppt
